@@ -10,6 +10,9 @@ class LinkedInException(Exception):
     def __init__(self, message=None):
         super().__init__(message or "An error occurred with LinkedIn")
 
+class StandOutSearchException(Exception):
+    def __init__(self, message=None):
+        super().__init__(message or "An error occurred with StandOutSearch")
 
 class IndeedException(Exception):
     def __init__(self, message=None):

@@ -17,6 +17,7 @@ class Site(Enum):
     INDEED = "indeed"
     ZIP_RECRUITER = "zip_recruiter"
     GLASSDOOR = "glassdoor"
+    STANDOUTSEARCH = "standoutsearch"
 
 class SalarySource(Enum):
     DIRECT_DATA = "direct_data"

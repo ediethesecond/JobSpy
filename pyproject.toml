@@ -5,7 +5,7 @@ description = "Job scraper for LinkedIn, Indeed, Glassdoor & ZipRecruiter"
 authors = ["Zachary Hampton <zachary@bunsly.com>", "Cullen Watson <cullen@bunsly.com>"]
 homepage = "https://github.com/Bunsly/JobSpy"
 readme = "README.md"
-keywords = ['jobs-scraper', 'linkedin', 'indeed', 'glassdoor', 'ziprecruiter']
+keywords = ['jobs-scraper', 'linkedin', 'standoutsearch', 'indeed', 'glassdoor', 'ziprecruiter']
 
 packages = [
     { include = "jobspy", from = "src" }

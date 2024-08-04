@@ -10,12 +10,15 @@ from .scrapers.indeed import IndeedScraper
 from .scrapers.ziprecruiter import ZipRecruiterScraper
 from .scrapers.glassdoor import GlassdoorScraper
 from .scrapers.linkedin import LinkedInScraper
+from .scrapers.standoutsearch import StandOutSearchScraper
+
 from .scrapers import SalarySource, ScraperInput, Site, JobResponse, Country
 from .scrapers.exceptions import (
     LinkedInException,
     IndeedException,
     ZipRecruiterException,
     GlassdoorException,
+    StandOutSearchException
 )
 
 
@@ -49,6 +52,7 @@ def scrape_jobs(
         Site.INDEED: IndeedScraper,
         Site.ZIP_RECRUITER: ZipRecruiterScraper,
         Site.GLASSDOOR: GlassdoorScraper,
+        Site.STANDOUTSEARCH: StandOutSearchScraper,
     }
     set_logger_level(verbose)
 

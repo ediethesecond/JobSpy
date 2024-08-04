@@ -8,6 +8,7 @@ def test_all():
             "linkedin",
             "indeed",
             "glassdoor",
+            "standoutsearch",
         ],  # ziprecruiter needs good ip, and temp fix to pass test on ci
         search_term="engineer",
         results_wanted=5,
